@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="/forgot/forgot.css">
+    
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2 id="heading">Forgot Password???</h2>
+            <form action="/login/login-page.html">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Last Known Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="phoneno">Phone number:</label>
+                <input type="tel" pattern="[0-9]{3}-[0-9]{4}" placeholder="xxx-xxxx" required>
+
+                <input type="submit" value="Login"  >
+            </form>
+
+            <hr>
+            <div class="lastline">
+                <p>
+                    <a href="/signup/registration.html" style="color: black;">Register Here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+*{
+
+   color: white;
+    background-size:cover;
+    background-attachment: fixed;
+
+
+
+}
+.header{
+    min-height: 100vh;
+    width: 95%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+nav{ 
+    display:flex ;
+    justify-content: space-around;
+
+    
+}
+nav image{
+    width: 100px;
+    
+
+
+
+}
+
+.nav{
+    display: flex;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block ;
+    padding:50px 90px ;
+
+    
+  
+}
+.nav .imagee{
+    align-items: center;
+    justify-content: center;
+
+}
+#para{
+    text-align: center;
+    font-size: 30px;
+    width: 900px;
+    color: white;
+}
+.book-now{
+    
+font-size: 50px;
+text-decoration: none;
+color: snow;
+background-color: black; 
+border: none;
+border-radius: 25%;
+padding: 25px;
+}
+
+.book-now:hover{
+    color: black;
+    background-image: linear-gradient(blue,snow);
+    transition: 0.5s;
+
+}
+
+
+
+
